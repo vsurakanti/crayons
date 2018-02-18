@@ -22,7 +22,7 @@ class plot() :
     self.enMinMax = False
     self.figure_size = (12,6)
     self.fig,self.axes = plt.subplots(rows, cols, figsize = self.figure_size, tight_layout=True)
-    self.minorgrid = dict(b = True , color='r', linestyle=':', linewidth=0.5, which = 'minor')
+    self.minorgrid = dict(b = True , color='r', linestyle=':', linewidth=0.7, which = 'minor')
     self.majorgrid = dict(b= True, color='b', linestyle='-', linewidth=1, which = 'major')
   def scatter(self, xVec = None , yVec = None , axes = None, hueVec = None, hueColor = [],  **kwargs):
 
